@@ -46,7 +46,6 @@ a {
 .selected a, .selected {
     background-color: #CDC2F5;
     color: #090715;
-    border: 2px solid #090715;
 }
 
 
@@ -69,6 +68,33 @@ header ul li {
 }
 
 /*main*/
+/*Nav*/
 #main {
     display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#main aside .nav-container {
+    height: 45.82vh;
+    width: 9.33vw;
+}
+
+#main aside .nav-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9.16vh;
+    width: 5.95vw;
+    border-radius: 50%;
 }
