@@ -12,7 +12,6 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    padding: 40px;
     background-color: #141122;
     color: #CDC2F5;
     font-size: 24px;
@@ -25,6 +24,7 @@ ul li {
 .header-nav, .nav-element, .main-stadistics {
     background-color: #090715;
     border: 2px solid #CDC2F5;
+    border-radius: 50px;
 }
 
 .nav-container {
@@ -48,13 +48,16 @@ a {
     color: #090715;
 }
 
+.main-stadistics {
+    padding: 25px;
+}
 
 /*Header nav*/
 header ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 12.72vh;
+    height: 10vh;
     width: 35.33vw;
 }
 
@@ -68,16 +71,16 @@ header ul li {
 }
 
 /*main*/
-/*Nav*/
 #main {
     display: flex;
-    justify-content: space-between;
     width: 100vw;
 }
 
+/*aside nav*/
 #main aside .nav-container {
     height: 45.82vh;
-    width: 9.33vw;
+    width: 6vw;
+    margin-left: 50px;
 }
 
 #main aside .nav-container ul {
@@ -91,10 +94,38 @@ header ul li {
 
 .nav-element {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 9.16vh;
-    width: 5.95vw;
+    width: 5vw;
     border-radius: 50%;
+}
+
+/*main*/
+main {
+    display: flex;
+    padding: 5.59vh 0 0 5vw;
+}
+#first-big-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+}
+
+#totals {
+    display: flex;
+    justify-content: space-between;
+    width: 42.74vw;
+    margin-bottom: 5vh;
+}
+
+#totals .main-stadistics {
+    height: 18vh;
+}
+
+#categories-last-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vw;
 }
