@@ -10,6 +10,17 @@
 </head>
 <body>
     <div id="body">
+        <header>
+            <section class="nav-container">
+                <ul>
+                    <a href="events.html">
+                        <li class="header-nav">
+                            <img src="img/goback.png" alt="Analytics page img" class="nav-icon-img"> <p>Vover</p>
+                        </li>
+                    </a>
+                </ul>
+            </section>
+        </header>
         <div id="main">
             <aside>
                 <nav class="nav-container">
@@ -30,7 +41,29 @@
                 </nav>
             </aside>
             <main>
-                
+                <section>
+                    <form>
+                        <label for="avatar">Cargar la imagen del evento <input type="file" id="avatar" name="avatar"></label>
+                        <label for="title">Agregar el titulo <input type="text" name="title" id="title"></label>
+                        <label for="category">Agregar categoria <input type="text" name="category" id="category"></label>
+                        <label for="date">Añadir la fecha del evento <input type="date" name="date" id="date"></label>
+                        <label for="description">Descripcion del evento</label>
+                        <textarea name="description" id="description"></textarea>
+                    </form>
+                </section>
+                <section>
+                    <article>
+                        <img src="img/preview.png" alt="" class="event-img">
+                        <div id="title-category">
+                            <h2>Titulo</h2>
+                            <p>Categoria</p>
+                            <p>Fecha</p>
+                        </div>
+                    </article>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nisi! Saepe tenetur exercitationem provident, rem qui architecto facere commodi at ullam voluptatum suscipit dignissimos praesentium minus quibusdam pariatur perspiciatis odit.</p>
+                    </article>
+                </section>
             </main>
         </div>
     </div>
